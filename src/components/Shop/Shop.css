@@ -10,12 +10,12 @@
 .card-container{
     text-align: center;
 }
-.search-field{
-    background-color: #222222;
+.search-container{
+    background-color: #313131;
     line-height: 65px;
     text-align: center;
 }
-.search-field input{
+.search-container input{
     font-size: medium;
     width: 75%;
     height: 25px;
@@ -27,7 +27,22 @@
 }
 #quantity{
    color: #f08804; 
-   font-size: 25px;
+   font-size: 26px;
    font-weight: 500;
    margin-left: 10px;
+}
+.pagination{
+    text-align: center;
+    margin: 25px;
+}
+.pagination button{
+    margin-right: 20px;
+    padding:5px 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.pagination .selected{
+    color: white;
+    background-color: darkblue;
 }
